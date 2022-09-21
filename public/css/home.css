@@ -1,0 +1,64 @@
+.navbar-brand {
+    color: #3a86ff; 
+  
+    padding-left: 100px;
+  }
+  .nav-link {
+    color:black;
+  
+    font-size: 18px;
+  }
+  
+  h1.intro {
+    padding-left:110px;
+    padding-top: 140px;
+    font-size: 45px;
+   
+    padding-bottom: -30px;
+  }
+  .volunteer {
+    color: #3a86ff; 
+  }
+  .reinvented {
+    color: #3a86ff;
+  }
+  h1 {
+    padding-top: -30px;
+    font-size:45px;
+    padding-left:110px;
+  
+  
+  }
+  p {
+    padding-left: 110px;
+  
+    color:Black;
+    font-size: 20px;
+  }
+  .img {
+    width: 370px;
+    height: 370px;
+    padding-right: 500px;
+    padding-top: 80px;
+  }
+
+  .login {
+    color:white;
+    text-decoration:none;
+  }
+  .login:hover {
+    color:white;
+  }
+  .signup {
+    color:white;
+    text-decoration:none;
+  }
+  .signup:hover {
+    color:white;
+  }
+   
+  body{
+    background-image: url(https://images.unsplash.com/photo-1508614999368-9260051292e5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+    background-size:cover ; 
+   
+  } 

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="login.css">
+    <title>Function List</title>
+</head>
+<body>
+    <br>
+    <br>
+    <br>
+    <div class="container">
+        <section class="row justify-content-center">
+            <div class="col-12 col-sm-6 col-md-4">
+              <h1>Past Code:</h1>
+              <% for(let i = 0; i < student.functions.length; i++) { %>
+                <ol><a href = '/student/function/<%=student.functions[i].id%>'><%=student.functions[i].fName%></a></ol>
+              <%}%>
+            </div>
+        </section>
+    </div>     
+</body>
+</html>

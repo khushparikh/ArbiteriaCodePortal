@@ -1,0 +1,52 @@
+body{
+    background-image: url(https://images.unsplash.com/photo-1529156069898-49953e39b3ac?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80);
+    background-size:cover ; 
+    /*font-family: 'Suez One', serif;*/ 
+   align-items: center;
+
+    
+  } 
+  button {
+	border-radius: 20px;
+	border: 1px solid #C1D3FE;
+	background-color:#C1D3FE;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 12px 45px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+}
+
+#button {
+	border-radius: 20px;
+	
+	background-color: #ff7b6a;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25)
+    0 10px 10px rgba(0,0,0,0.22);
+    color: black;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 12px 45px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;  
+    text-align: center;
+}
+.container {
+	background-color: #fff;
+	border-radius: 10px;
+  	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+			0 10px 10px rgba(0,0,0,0.22);
+	position: relative;
+	overflow: hidden;
+	width: 550px;
+	max-width: 100%;
+	min-height: 580px;
+} 
+.card{ 
+    height: 512px;
+    border-width: 0px; 
+    ;
+} 

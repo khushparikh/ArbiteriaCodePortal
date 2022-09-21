@@ -1,0 +1,56 @@
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(https://images.unsplash.com/photo-1528460033278-a6ba57020470?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80);
+    background-size: cover;
+    
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	
+
+}
+h1{ 
+    margin-top: 80px; 
+    color: rgb(255, 255, 255);
+}
+#bigbutton{ 
+   margin-top: 15px;
+    border-radius: 20px;
+	border: 1px solid #ffffff;
+    background-color: transparent;
+	color: white;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 12px 45px;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in 
+    
+}
+#orgbutton{ 
+    margin-top: 10px;
+    border-radius: 20px;
+	border: 1px solid #b0d5ff;
+    background-color: transparent;
+	color:#b0d5ff;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 12px 45px;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in 
+}
+#homebutton{ 
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-radius: 20px;
+        border: 1px solid #ff6363;
+        background-color: transparent;
+        color:#ff6363;
+        font-size: 12px;
+        font-weight: bold;
+        padding: 12px 45px;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+        transition: transform 80ms ease-in 
+    }
