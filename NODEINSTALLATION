@@ -1,0 +1,6 @@
+EVERY DEVELOPER MUST INSTALL NODE MODULES AS PER THESE INSTRUCTIONS:
+
+1. Go to Command Line and command 'cd' into development directory(adjust this if you are on a Mac or Linux)
+2. Type 'npm install' to download all basic node dependencies that are needed
+3. Type 'npm init -y' to create package-lock and package.json files
+4. Type 'npm install nodemon, mongoose, bcrypt, express, method-override, express-session' to install all additional required dependencies
