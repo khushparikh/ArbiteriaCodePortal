@@ -35,7 +35,7 @@ const requireAdminLogin = (req, res, next) => {
 }
 
 
-mongoose.connect('mongodb://localhost:27017/codegrader', {
+mongoose.connect('mongodb://db:27017/codegrader', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
